@@ -6,7 +6,9 @@ class UserReels extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(child: Text('REELS', style: TextStyle(fontSize: 48))),
+      body: Center(
+          child: Text('REELS',
+              style: TextStyle(fontSize: 48, fontFamily: 'Billabong'))),
     );
   }
 }
